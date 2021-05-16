@@ -6,7 +6,7 @@
 
 * CSS new Properties 
 ```css
-  // to make gradient border
+  /* to make gradient border */
   
   background-image : linear-grandient();
   border-image-slice : 1
