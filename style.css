@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -42,7 +43,7 @@ body {
     z-index: 99;
 }
 
-.ticket::after{
+.ticket::after {
     content: "";
     width: 81px;
     height: 40px;
@@ -56,4 +57,41 @@ body {
     top: 41%;
     right: -28px;
     z-index: 99;
+}
+
+.title {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.title .img {
+    width: 80px;
+    height: 80px;
+}
+
+.title .img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.description .name h1 {
+    color: #fff;
+}
+
+.description .github {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.description .github i {
+    font-size: 20px;
 }
