@@ -2,7 +2,8 @@
 > NEXT js Event Ticket 
 > 
 > Will be made as pure as possible
-
+> 
+> Final result : 90% same as original
 
 * CSS new Properties 
 ```css
