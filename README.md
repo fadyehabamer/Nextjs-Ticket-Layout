@@ -11,3 +11,19 @@
   background-image : linear-grandient();
   border-image-slice : 1
 ```
+
+* issues 
+  ```css
+  /* Not working for .ticket */
+  border-radius : 8px 
+ 
+  /* flex grow not working ( I dont know why ) for both .right & .left */
+  .left {
+    flex-grow : 3
+  }
+  
+  .right{
+    flex-grow : 1 
+  }
+  
+  ```
