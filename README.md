@@ -14,7 +14,7 @@
 
 * issues 
   ```css
-  /* Not working for .ticket */
+  /* Not working for .ticket (but I Know why hahaha) */
   border-radius : 8px 
  
   /* flex grow not working ( I dont know why ) for both .right & .left */
