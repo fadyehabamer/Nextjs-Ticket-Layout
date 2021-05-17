@@ -58,7 +58,10 @@ body {
     right: -28px;
     z-index: 99;
 }
-
+.left{
+    display: flex;
+    flex-direction: column;
+}
 .title {
     display: flex;
     margin-left: 50px;
@@ -94,4 +97,12 @@ body {
 
 .description .github i {
     font-size: 20px;
+}
+
+.next-img{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.next-img img{
+    width: 60%;
 }
